@@ -466,7 +466,8 @@ header{
 .fa-check{
     display: inline-block;
     margin-right: 20px;
-    color: goldenrod;
+     
+    color: #FF0000;
 }
 
 .fa-check:hover{
