@@ -238,6 +238,7 @@ header{
     
     
     
+    
    
     
     }
@@ -366,15 +367,20 @@ header{
 
 .left button{
     background-image:linear-gradient(90deg,red,orange);
-
+    
     font-size:1.5rem;
     padding: 10px 20px;
     border: none;
     color: white;
     cursor: pointer;
+    transition: 0.3s;
 }
 
- 
+.left button:hover{
+    transform: scale(1.1);
+  
+    
+}
 
 
 @media(max-width:1024px){
@@ -435,7 +441,76 @@ header{
 
 
 
-.trzy{
-    width: 100%;
-    height: 100vh;
+/* sekcja offer */
+.offer{
+    background-color: rgba(204, 198, 198, 0.295);
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+.offer .service{
+    padding: 20px 100px;
+    width: 50%;
+    
+     /* background-color: red;  */
+    
+    font-size: 1.7rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+.offer .service h1{
+    padding-bottom: 20px;
+    text-align: center;
+}
+.fa-check{
+    display: inline-block;
+    margin-right: 20px;
+    color: goldenrod;
+}
+
+.fa-check:hover{
+    color: rgb(170, 129, 24);
+}
+
+@media(max-width:1224px){
+
+    .offer{
+        padding: 20px 50px;
+    }
+    .offer .service{
+        font-size: 1.5rem;
+        padding: 20px 50px;
+    }
+}
+
+@media (max-width:980px){
+    .offer{
+        padding: 20px 60px;
+    }
+    .offer .service{
+        font-size:1.2rem;
+        padding: 20px 20px;
+    }
+}
+
+@media(max-width:680px){
+    .offer{
+        padding: 10px 20px;
+    }
+    .offer .service{
+        font-size: 1rem;
+        padding: 10px 10px;
+    }
+}
+
+@media(max-width:480px){
+    .offer{
+        flex-direction: column;
+        align-items: center;
+    }
+    .offer .service{
+        width: 100%;
+        padding: 10px 50px;
+    }
 }
