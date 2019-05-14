@@ -603,8 +603,14 @@ img{
 
 
 .accordian{
-    width: 80%;
+    width: 70%;
     margin: 50px auto;
+    
+}
+.accordian h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
 button.question{
@@ -614,29 +620,32 @@ button.question{
     outline: none;
     text-align: left;
     padding: 15px 20px;
-    font-size: 18px;
+    font-size: 22px;
     cursor: pointer;
     transition: 0.2s;
 }
 button.question::after{
     content:"\f0fe";
     font-family: "Font Awesome 5 Free";
-    font-size: 18px;
+    font-size: 20px;
     float:right;
 
 }
 
 button.question.open::after{
+    
     content:"\f146";
     font-family: "Font Awesome 5 Free";
-    font-size: 18px;
+    font-size: 20px;
     float:right;
+    
 
 }
 
 button.question:hover{
     background-color: #ddd;
     padding: 15px 30px;
+    color: #FF0000;
 
 }
 .answer{
@@ -650,4 +659,13 @@ button.question:hover{
 
 .answer p {
     padding: 20px;
+    font-size: 20px;
+}
+
+
+@media(max-width:680px){
+    .accordian{
+        width: 90%;
+        margin: 20px auto;
+    }
 }
