@@ -308,6 +308,13 @@ header{
         margin: 0 20px 20px 0;
         padding: 20px 20px;
     }
+    nav .logo {
+        display: none;
+    }
+
+    nav{
+        height: 50px;
+    }
     
 }
 @media(max-width:480px){
