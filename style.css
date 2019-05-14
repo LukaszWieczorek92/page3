@@ -27,7 +27,7 @@ nav{
 }
 
 nav.black{
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0,0,0,0.4);
     padding: 20px 30px;
     
 }
@@ -313,7 +313,7 @@ header{
     }
 
     nav{
-        height: 50px;
+        height:50px;
     }
     
 }
@@ -718,12 +718,33 @@ footer .logo span{
 .socials div{
     width: 50px;
     height: 50px;
-    border:1px solid white;
+    border:2px solid white;
     border-radius: 50%; 
     line-height: 50px;
     font-size: 20px;
 }
+.socials a{
+    color: white;
+}
+.socials div:nth-child(1):hover, .socials div:nth-child(1):hover a{
+    color: #4267B2;
+    border-color: #4267B2;
+}
 
+.socials div:nth-child(2):hover, .socials div:nth-child(2):hover a{
+    color: #DB493C;
+    border-color: #DB493C;
+}
+
+.socials div:nth-child(3):hover, .socials div:nth-child(3):hover a{
+    color: #2CDD44;
+    border-color: #2CDD44;
+}
+
+.socials div:nth-child(4):hover, .socials div:nth-child(4):hover a{
+    color: #FB7C2B;
+    border-color: #FB7C2B;
+}
 @media(max-width:860px){
 
     footer{
