@@ -44,6 +44,9 @@ nav .logo{
    
     
 }
+nav .logo:hover{
+    cursor: pointer;
+}
 
 nav .logo span{
     color:  #FF0000;
