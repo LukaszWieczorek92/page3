@@ -33,7 +33,7 @@ $(".contact-nav").on("click", () => {
 
 $(".question-nav").on("click", () => {
     $("html,body").animate({
-        scrollTop: $(".question").offset().top - $("nav").innerHeight()
+        scrollTop: $(".question").offset().top - $("nav").innerHeight()*2.5
     },500);
 });
 
