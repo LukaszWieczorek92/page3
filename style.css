@@ -363,7 +363,8 @@ header{
     background-image:url(img/about.jpg);
     background-size: cover;
     width: 100%;
-    height: 100%;
+    min-height: 100%;
+
 }
 .left h1{
     font-size: 2rem;
@@ -421,12 +422,19 @@ header{
     .about-us{
         flex-direction: column;
         align-items: center;
+        
         padding:20px 50px;
     }
         .left,
         .right{
             width: 90vw;
+            
+            
+            
+        }
+        .right{
             height: 50vh;
+            width: 90vw;
         }
 
         .left{
@@ -434,10 +442,13 @@ header{
             flex-direction: column;
             align-items: center;
             text-align: center;
+            margin-bottom: 10px;
+            min-height: 50vh;
         }
         .left p{
             font-size: 1.2rem;
         }
+        
 
 }
 
