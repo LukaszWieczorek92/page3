@@ -1,3 +1,4 @@
+// nav color change
 $(window).on('scroll', function(){
     if($(window).scrollTop()){
         $("nav").addClass("black");

@@ -615,7 +615,7 @@ img{
 .accordian{
     width: 80%;
     margin: 0px auto;
-    padding: 50px;
+    padding: 20px;
     
 }
 .accordian h1{
@@ -631,7 +631,7 @@ button.question{
     border: none;
     outline: none;
     text-align: left;
-    padding: 15px 20px;
+    padding: 15px 5px;
     font-size: 22px;
     cursor: pointer;
     transition: 0.2s;
