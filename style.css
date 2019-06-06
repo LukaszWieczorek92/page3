@@ -263,8 +263,9 @@ header{
 .textbox h1{
     color: white;
 }
-.textbox .button{
+.textbox button{
     position: absolute;
+    border: none;
     top: 100%;
     left: 60%;
     width: 30%;
@@ -273,7 +274,7 @@ header{
     background-color: #FF0000;
     
 }
-.textbox .button:hover{
+.textbox button:hover{
     background: #990303;
 }
 
@@ -283,6 +284,7 @@ header{
     color: white;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 20px;
 }
 
 
@@ -327,7 +329,7 @@ header{
         transform: translate(-50%,-50%);
         width: 80vw;
     }
-    .textbox .button{
+    .textbox button{
         left: 50%;
         transform: translate(-50%,-50%);
     }
@@ -382,11 +384,18 @@ header{
     background-image:linear-gradient(90deg,red,orange);
     
     font-size:1.5rem;
-    padding: 10px 20px;
+    /* padding: 10px 20px; */
     border: none;
     color: white;
     cursor: pointer;
     transition: 0.3s;
+}
+
+.left a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 25px;
 }
 
 .left button:hover{

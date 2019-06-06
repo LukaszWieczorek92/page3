@@ -8,7 +8,7 @@ $(window).on('scroll', function(){
     }
 })
 // buton slide to section about
- $(".button").on("click", () => {
+ $(".textbox button").on("click", () => {
      $("html,body").animate({
         scrollTop: $(".about-us").offset().top - $("nav").outerHeight()
      },500);
